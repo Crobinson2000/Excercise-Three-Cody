@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Week Emojies</title>
+</head>
+<body>
+    <!-- <section>
+<div class="container">
+    <h1>Week Emojies</h1>
+    <p>Click on the buttons to change the character</p>
+</div>
+    </section> -->
+    
+    <!-- <button id="startButton" onclick="startFunction()">Start</button> -->
+  <div id="daysofweek">
+    <div class="container">
+        <h1>Week Emojies</h1>
+        <p>Click on the buttons to change the character</p>
+    </div>
+    <button onclick="changeItem('monday')">Monday</button>
+    <button onclick="changeItem('tuesday')">Tuesday</button>
+    <button onclick="changeItem('wednesday')">Wednesday</button>
+    <button onclick="changeItem('thursday')">Thursday</button>
+    <button onclick="changeItem('friday')">Friday</button>
+    <button onclick="changeItem('saturday')">Saturday</button>
+    <button onclick="changeItem('sunday')">Sunday</button>
+  </div>
+
+  <div id="character">
+      <img id="emojieImage" src="images/monday.png" alt="Character">
+      <img class="item" id="monday" src="images/monday.png" alt="character">
+      <img class="item" id="tuesday" src="images/tuesday.png" alt="character">
+      <img class="item" id="wednesday" src="images/wednesday.png" alt="character">
+      <img class="item" id="thursday" src="images/thursday.png" alt="character">
+      <img class="item" id="friday" src="images/friday.png" alt="character">
+      <img class="item" id="saturday" src="images/saturday.png" alt="character">
+      <img class="item" id="sunday" src="images/sunday.png" alt="character">
+  </div>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
